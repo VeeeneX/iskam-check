@@ -1,0 +1,31 @@
+{
+  "name": "iskam-check",
+  "version": "1.0.0",
+  "description": "Check wheter you are homeless or not",
+  "main": "main.js",
+  "dependencies": {
+    "nodemailer": "^4.6.7",
+    "puppeteer": "^1.6.2",
+    "slugify": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "check": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/VeeeneX/iskam-check.git"
+  },
+  "keywords": [
+    "iskam",
+    "muni",
+    "homeless"
+  ],
+  "author": "VeeeneX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VeeeneX/iskam-check/issues"
+  },
+  "homepage": "https://github.com/VeeeneX/iskam-check#readme"
+}
