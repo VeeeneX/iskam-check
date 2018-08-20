@@ -6,7 +6,8 @@ const {
     GMAIL_PASSWORD,
     MUNI_PASSWORD,
     MUNI_USERNAME,
-    sendEmailIfSleepingInBoardingHouse
+    sendEmailIfSleepingInBoardingHouse,
+    headless
 } = require('./config');
 
 const transporter = nodemailer.createTransport({
@@ -31,6 +32,7 @@ let sleepingInBoardingHouse = false;
 
 (async () => {
     const browser = await puppeteer.launch({
+        headless,
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     const page = await browser.newPage();

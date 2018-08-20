@@ -16,5 +16,10 @@ module.exports = {
     /**
      * Enable this to receive bridge
      */
-    sendEmailIfSleepingInBoardingHouse: false
+    sendEmailIfSleepingInBoardingHouse: false,
+
+    /**
+     * Enable to see chrome
+     */
+    headless: false
 };
