@@ -9,5 +9,5 @@
 
 ## Go!
 - `npm run check`
-![Cat](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
+![Cat](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
